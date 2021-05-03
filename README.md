@@ -61,4 +61,6 @@ npm run dev or npm run watch
 <h1>Check this link to know more about Jetstream : </h1>
 <a href="https://jetstream.laravel.com/2.x/installation.html">Jetstream</a> 
 <br>
-#Enjoy! 
+
+<h3>License</h3>
+The MIT License (MIT). Please see <a href="https://github.com/bakateam/merakiui/blob/main/LICENSE" target="_blank">License File</a> for more information.
