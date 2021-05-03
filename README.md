@@ -1,4 +1,4 @@
-#Laravel Jetstream
+ #Laravel Jetstream
 <p>Laravel Jetstream is a beautifully designed application starter kit for Laravel and provides the perfect starting point for your next Laravel application. Jetstream provides the implementation for your application's login, registration, email verification, two-factor authentication, session management, API via Laravel Sanctum, and optional team management features.</p>
 
 <p>Jetstream is designed using Tailwind CSS and offers your choice of Livewire or Inertia scaffolding.</p>
@@ -16,7 +16,7 @@
 
 <p>You are highly encouraged to read through the entire documentation of Livewire or Inertia before beginning your Jetstream project.</p>
 
-#Install Jetstream With Livewire
+ #Install Jetstream With Livewire
 <pre>
 	<code>
 		php artisan jetstream:install livewire
@@ -24,7 +24,7 @@
 		php artisan jetstream:install livewire --teams
 	</code>
 </pre>
-#Or, Install Jetstream With Inertia
+ #Or, Install Jetstream With Inertia
 
 <pre>
 	<code>
@@ -34,7 +34,7 @@
 	</code>
 </pre>
 
-#Finalizing The Installation
+ #Finalizing The Installation
 <p>After installing Jetstream, you should install and build your NPM dependencies and migrate your database:</p>
 <pre>
 	<code>
@@ -44,7 +44,7 @@
 	</code>
 </pre>
 
-#Livewire
+ #Livewire
 <p>If you are using the Livewire stack, you should first publish the Livewire stack's Blade components:</p>
 <pre>
 	<code>
@@ -52,7 +52,7 @@
 	</code>
 </pre>
 
-# After customizing these components, you should rebuild your assets:
+ #After customizing these components, you should rebuild your assets:
 
 <pre>
 	<code>
