@@ -1,14 +1,14 @@
- #Laravel Jetstream
+<h1>Laravel Jetstream</h1>
 <p>Laravel Jetstream is a beautifully designed application starter kit for Laravel and provides the perfect starting point for your next Laravel application. Jetstream provides the implementation for your application's login, registration, email verification, two-factor authentication, session management, API via Laravel Sanctum, and optional team management features.</p>
 
 <p>Jetstream is designed using Tailwind CSS and offers your choice of Livewire or Inertia scaffolding.</p>
 
-#Installing Jetstream
+<h1>Installing Jetstream</h1>
 <p>You may use Composer to install Jetstream into your new Laravel project:</p>
 
 <pre>
 	<code>
-		composer require laravel/jetstream
+composer require laravel/jetstream
 	</code>
 </pre>
 
@@ -16,51 +16,49 @@
 
 <p>You are highly encouraged to read through the entire documentation of Livewire or Inertia before beginning your Jetstream project.</p>
 
- #Install Jetstream With Livewire
+<h1>Install Jetstream With Livewire</h1>
 <pre>
 	<code>
-		php artisan jetstream:install livewire
-
-		php artisan jetstream:install livewire --teams
+php artisan jetstream:install livewire
+php artisan jetstream:install livewire --teams
 	</code>
 </pre>
- #Or, Install Jetstream With Inertia
+<h1>Or, Install Jetstream With Inertia</h1>
 
 <pre>
 	<code>
-		php artisan jetstream:install inertia
-
-		php artisan jetstream:install inertia --teams
+php artisan jetstream:install inertia
+php artisan jetstream:install inertia --teams
 	</code>
 </pre>
 
- #Finalizing The Installation
+<h1>Finalizing The Installation</h1>
 <p>After installing Jetstream, you should install and build your NPM dependencies and migrate your database:</p>
 <pre>
 	<code>
-		npm install
-		npm run dev
-		php artisan migrate
+npm install
+npm run dev
+php artisan migrate
 	</code>
 </pre>
 
- #Livewire
+<h1>Livewire</h1>
 <p>If you are using the Livewire stack, you should first publish the Livewire stack's Blade components:</p>
 <pre>
 	<code>
-		php artisan vendor:publish --tag=jetstream-views
+php artisan vendor:publish --tag=jetstream-views
 	</code>
 </pre>
 
- #After customizing these components, you should rebuild your assets:
+<h1>After customizing these components, you should rebuild your assets:</h1>
 
 <pre>
 	<code>
-		npm run dev or npm run watch
+npm run dev or npm run watch
 	</code>
 </pre>
 
-#Check this link to know more about Jetstream : 
-https://jetstream.laravel.com/2.x/installation.html
-
+<h1>Check this link to know more about Jetstream : </h1>
+<a href="https://jetstream.laravel.com/2.x/installation.html">Jetstream</a> 
+<br>
 #Enjoy! 
